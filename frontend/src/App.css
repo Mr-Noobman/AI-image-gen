@@ -1,0 +1,77 @@
+/* ========================================
+   APP LAYOUT
+   ======================================== */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.not-found h1 {
+  font-size: 120px;
+  color: white;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.not-found p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 32px;
+}
+
+/* ========================================
+   LOADING STATES
+   ======================================== */
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 16px;
+}
+
+.loading-container p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ========================================
+   TOAST CUSTOMIZATION
+   ======================================== */
+
+.Toastify__toast {
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.Toastify__toast--success {
+  background: #7ef47e;
+}
+
+.Toastify__toast--error {
+  background: #f87061;
+}
+
+.Toastify__toast--info {
+  background: #97d1f8;
+}
