@@ -1,6 +1,11 @@
-"scripts": {
-  "start": "react-scripts start",
+{
+  "name": "ai-image-gallery-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
   "build": "react-scripts build",
   "test": "react-scripts test",
   "eject": "react-scripts eject"
-},
+  }
+}
