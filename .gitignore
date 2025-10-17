@@ -1,6 +1,5 @@
 # Frontend Dependencies
 frontend/node_modules
-frontend/build
 
 # Backend Dependencies
 backend/node_modules
